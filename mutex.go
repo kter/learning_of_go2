@@ -39,7 +39,6 @@ func main() {
 
 	for i := 0; i < 5; i++ {
 		go func() {
-			fmt.Println("AAAAAAAAAAAAAAA")
 			for i := 0; i < 1000; i++ {
 				UpdateAndPrint(i)
 			}
